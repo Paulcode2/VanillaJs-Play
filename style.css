@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: max-content; */
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: .5rem; 
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    height: 23rem;
+    width: max-content;
+    /* padding: 15rem 5rem; */
+    padding: .2rem;
+    margin: 11rem;
+    border-radius: 1rem;
+}
+
+.display{
+    display: flex;
+    background: grey; 
+    width: 96%;
+    padding: .5rem;
+    /* padding: .5rem 10rem;  */
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+/* #display-num{
+    display: flex;
+    margin-right: auto;
+} */
+
+#delete{
+    padding: .1rem .6rem;
+    background: black;
+    border-radius: 5px;
+    color: #fff;
+    font-size: small;
+}
+.keypads{
+    /* display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(3, 95px); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+#numbers{
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(2, 95px);
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 95px;
+}
